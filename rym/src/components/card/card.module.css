@@ -1,0 +1,57 @@
+.container {
+    width: 25%;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+.containerbutton{
+    display: flex;
+}
+
+.close {
+    background-color: red;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    font-family: Times;
+    font-size: 125%;    
+}
+
+.parametros{
+    color: greenyellow;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.close:hover{
+    color: black;
+    background-color: green;
+}
+
+.info {
+    font-weight: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.continf{
+    font-weight: 100%;
+    margin-bottom: 0%;
+}
+
+.specie{
+    font-size: 100%;
+    color: black;
+}
+
+.image{
+    margin-bottom: -10%;
+    size: 100%;
+}

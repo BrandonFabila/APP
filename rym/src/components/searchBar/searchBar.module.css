@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: black;
+    width: min-content;
+    height: min-content;
+    margin-top: 2%;
+}
+
+.SearchBar {
+    background-color: white;
+    width: max-content;
+}
+
+.button {
+    background-color: green;
+    color: aliceblue;
+}

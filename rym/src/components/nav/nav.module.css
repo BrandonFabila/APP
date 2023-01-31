@@ -1,0 +1,6 @@
+.Cont{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: min-content;
+ }
