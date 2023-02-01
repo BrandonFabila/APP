@@ -1,8 +1,14 @@
 .App {
-   text-align: center;
-   background-image: url("https://images.pling.com/img/00/00/62/69/92/1654523/323df1d14a8025b09c780486fc34252ad161a0ab5ee1b4ed65be34b8966ee40ac0c3.jpg");
-   background-size: cover;
-   background-repeat:no-repeat;
+   height: 100vh;
+   width: auto;
+   
+   text-align:center;
+   background-image: url("https://www.gratistodo.com/wp-content/uploads/2017/02/degradados-wallpapers-7.jpg");
+   background-size:cover;
+   background-repeat: no-repeat;
    background-position:center;
-   background-attachment: fixed;
+   background-attachment:scroll;
+   background-blend-mode: lighten;
+   background-color: black;
+   justify-content: center;
 }

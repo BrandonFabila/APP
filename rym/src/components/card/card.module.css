@@ -4,8 +4,8 @@
     background-color: black;
     color: white;
     margin: auto;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .containerbutton{
@@ -49,6 +49,7 @@
 .specie{
     font-size: 100%;
     color: black;
+    background-color: rgb(10, 10, 10);
 }
 
 .image{

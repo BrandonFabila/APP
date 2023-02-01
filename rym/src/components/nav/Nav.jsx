@@ -4,7 +4,7 @@ import SearchBar from '../searchBar/SearchBar.jsx'
 function Nav({ onSearch }) {
     return (
         <nav className={style.Cont} >
-            <h1>Rick and Morty</h1>
+            <h1 className={style.Letra} >Rick and Morty</h1>
             <SearchBar
               onSearch={onSearch}
             />
