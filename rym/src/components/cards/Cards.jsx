@@ -1,7 +1,7 @@
 import Card from '../card/Card';
 import style from './cards.module.css'
 
-function Cards({characters}) {
+function Cards({characters, onClose}) {
    
    return (
    <div className={style.division} >
@@ -14,7 +14,8 @@ function Cards({characters}) {
             species={species}
             gender={gender}
             image={image}
-            onClose={() => window.alert('Emulamos que se cierra la card')}
+            id={id}
+            onClose={() => onClose(id)}
          />
          )
       })

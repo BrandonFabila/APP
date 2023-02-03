@@ -1,8 +1,8 @@
 .App {
    height: 100vh;
    width: auto;
-   
    text-align:center;
+   justify-content: center;
    background-image: url("https://www.gratistodo.com/wp-content/uploads/2017/02/degradados-wallpapers-7.jpg");
    background-size:cover;
    background-repeat: no-repeat;
@@ -10,5 +10,4 @@
    background-attachment:scroll;
    background-blend-mode: lighten;
    background-color: black;
-   justify-content: center;
 }
