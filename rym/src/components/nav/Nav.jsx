@@ -5,10 +5,21 @@ import { Link } from 'react-router-dom';
 function Nav({ onSearch }) {
     return (
         <nav className={style.Cont} >
-            <h1 className={style.Letra} >Rick and Morty</h1>
-            <Link to='about' >About</Link>
-            <Link to='home' >Home</Link>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Rick_and_Morty.svg/1920px-Rick_and_Morty.svg.png' alt="Logo" className={style.logo} />
+            <button className={style.button} >
+                <Link to='about' className={style.link} >About</Link>
+            </button>
+
+            <button className={style.button} >
+                <Link to='home' className={style.link} >Home</Link>
+            </button>      
+
+            <button className={style.button} >
+                <Link to='/' className={style.link} >Log Out</Link>
+            </button>         
+            
             <SearchBar onSearch={onSearch} />
+               
         </nav>
     )
 }

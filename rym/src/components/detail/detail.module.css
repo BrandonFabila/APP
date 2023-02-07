@@ -1,0 +1,55 @@
+.izq{
+    width: fit-content;
+    height: 100%;
+    padding-right: 2.5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.der{
+    vertical-align: middle;
+    width: fit-content;
+    height: 100%;
+    padding-left:  2.5%;
+}
+
+.gral{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.buttonText{
+    color: black;
+}
+
+.button {
+    color: yellowgreen;
+    background-color: transparent;
+    border-color: greenyellow;
+    background-color: greenyellow;
+    width: 200%;
+    height: 98.5%;
+    justify-content: center;
+    padding-right: 100%;
+    border-radius: 100%;
+}
+
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    font-size: 115%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.image {
+    width: 100%;
+}

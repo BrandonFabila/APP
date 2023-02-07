@@ -1,8 +1,6 @@
 .container {
-    width: 25%;
+    width: 20%;
     justify-content: center;
-    background-color: black;
-    color: white;
     margin: auto;
     margin-bottom: 5%;
     margin-top: 5%;
@@ -10,6 +8,9 @@
 
 .containerbutton{
     display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .close {
@@ -18,7 +19,8 @@
     width: fit-content;
     height: fit-content;
     font-family: Times;
-    font-size: 125%;    
+    font-size: 125%; 
+    border-radius: 50%;
 }
 
 .parametros{
@@ -27,6 +29,7 @@
     height: fit-content;
     margin-top: 1%;
     margin-bottom: 1%;
+    text-decoration: underline overline greenyellow;
 }
 
 .close:hover{
@@ -39,20 +42,13 @@
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-}
 
-.continf{
-    font-weight: 100%;
-    margin-bottom: 0%;
-}
-
-.specie{
-    font-size: 100%;
-    color: black;
-    background-color: rgb(10, 10, 10);
 }
 
 .image{
-    margin-bottom: -10%;
+    margin-bottom: 2.5%;
+    margin-top: 2.5;
     size: 100%;
+    width: 100%;
+    border-radius: 50%;
 }

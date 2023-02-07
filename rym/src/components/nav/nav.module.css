@@ -3,10 +3,21 @@
     flex-direction: row;
     justify-content: space-around;
     height: min-content;
-    
+    margin-bottom: 2%;
+    margin-top: -0.5%;
  }
 
- .Letra{
-    color: white;
-    font-family: sans-serif;
+ .logo{
+   width: 15%;
  }
+
+.link {
+  color:  greenyellow;
+ }
+
+.button {
+  background-color: transparent;
+  border-color: greenyellow;
+  padding-left: 3%;
+  padding-right: 3%;
+}
