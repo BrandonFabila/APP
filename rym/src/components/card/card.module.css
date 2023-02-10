@@ -4,6 +4,7 @@
     margin: auto;
     margin-bottom: 5%;
     margin-top: 5%;
+    padding-left: 1%;
 }
 
 .containerbutton{
@@ -14,16 +15,26 @@
 }
 
 .close {
-    background-color: red;
-    color: white;
+    background-color: transparent;
+    color: red;
     width: fit-content;
     height: fit-content;
     font-family: Times;
     font-size: 125%; 
     border-radius: 50%;
+    border-color: red;
 }
 
 .parametros{
+    color: greenyellow;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-decoration: underline overline black;
+}
+
+.parametros:hover{
     color: greenyellow;
     width: fit-content;
     height: fit-content;
@@ -35,6 +46,9 @@
 .close:hover{
     color: black;
     background-color: green;
+    border-color: transparent;
+    font-size: 155%; 
+
 }
 
 .info {
@@ -49,6 +63,23 @@
     margin-bottom: 2.5%;
     margin-top: 2.5;
     size: 100%;
-    width: 100%;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
+}
+
+.fav{
+    background-color: transparent;
+    width: fit-content;
+    height: 100%;
+    border-color: transparent;
+    font-size: x-large;
+}
+
+.fav:hover{
+    background-color: transparent;
+    width: fit-content;
+    height: 100%;
+    border-color: transparent;
+    font-size: xx-large;
 }

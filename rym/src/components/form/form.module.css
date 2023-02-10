@@ -1,9 +1,7 @@
 .cont{
     width: 100%;
-    height: fit-content;
+    height: 75%;
     flex: content;    
-    margin-bottom: 9%;
-    margin-top: 7%;
     justify-content: center;
 }
 

@@ -5,6 +5,7 @@ import PieCont from './components/pie/pie';
 import Cards from './components/cards/Cards.jsx';
 import About from './components/about/About';
 import Detail from './components/detail/Detail';
+import Favorites from './components/favorites/Favorites';
 import { useState, useEffect } from 'react';//import state
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 
@@ -53,6 +54,7 @@ function App () {
         <Route path='home' element={<Cards onClose={onClose} characters={characters} />} />
         <Route path='about' element={<About/>} />
         <Route path='detail/:detailId' element={<Detail/>} />
+        <Route path='favorites' element={<Favorites/>}/>
       </Routes>
       <PieCont/>
     </div>
